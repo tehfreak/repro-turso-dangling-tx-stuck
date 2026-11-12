@@ -7,10 +7,11 @@ later call on the connection fails with it.
 
 ## Status
 
-Not reported upstream yet. No issue or PR covers it as of 2026-11-12. The closest ones are about
-other things: https://github.com/tursodatabase/turso/issues/11746 (prepared statements skip the
-same stored ROLLBACK) and https://github.com/tursodatabase/turso/issues/11217 (the Go driver keeps
-writing after an engine rollback).
+Reported upstream as https://github.com/tursodatabase/turso/issues/11759, unassigned. No issue or
+PR covered it when it was filed. The closest ones are about other things:
+https://github.com/tursodatabase/turso/issues/11746 (prepared statements skip the same stored
+ROLLBACK) and https://github.com/tursodatabase/turso/issues/11217 (the Go driver keeps writing
+after an engine rollback).
 
 Checked with turso 0.8.3, the latest release, and 0.9.0-pre.5, the latest pre-release. main at
 `0bec181e` has the same bindings code.
